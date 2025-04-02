@@ -6,7 +6,6 @@ import cubed.random
 from cubed.diagnostics.history import HistoryCallback
 from cubed.diagnostics.timeline import TimelineVisualizationCallback
 
-# Suprime advertencias inofensivas de connection pool
 logging.getLogger("urllib3.connectionpool").setLevel(logging.ERROR)
 
 if __name__ == "__main__":
